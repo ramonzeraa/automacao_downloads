@@ -19,7 +19,28 @@ Extraia o conteúdo do arquivo `script.zip` em uma pasta de sua escolha.
 
 ### 3. Instalar o Python
 
-Verifique se o Python está instalado. Caso não esteja, baixe em [python.org](https://www.python.org/downloads/).
+Verifique se o Python está instalado. Caso não esteja, siga as instruções abaixo:
+
+#### Para macOS
+
+1. Abra o Terminal.
+2. Instale o Homebrew, se ainda não o tiver:
+   ```bash
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   ```
+3. Instale o Python:
+   ```bash
+   brew install python
+   ```
+
+#### Para Linux
+
+1. Abra o Terminal.
+2. Use o gerenciador de pacotes da sua distribuição. Por exemplo, para Ubuntu:
+   ```bash
+   sudo apt update
+   sudo apt install python3 python3-pip
+   ```
 
 ### 4. Instalar Dependências
 

@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 
 url = "https://books.goalkicker.com/"
-destino = r"C:\Users\Ramon\Desktop\Cursos em PDF"
+destino = os.path.join(os.path.expanduser("~"), "Cursos em PDF")
 
 os.makedirs(destino, exist_ok=True)
 
